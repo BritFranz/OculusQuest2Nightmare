@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1f8255ef-5e55-4e73-af97-98d4278f533d}</destination>
+			<destination>{cf3d270f-591d-4a7d-95a6-1ee0331e38d8}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{9cf0d898-4354-465e-956c-4c8aad52b800}</destination>
@@ -25,6 +25,9 @@
 		<relationship name="markerTracks">
 			<destination>{dc542b85-9430-4994-9082-1081465882f3}</destination>
 		</relationship>
+		<relationship name="groupTracks">
+			<destination>{8d1c5db3-92f3-43bf-8396-19c9cca750a6}</destination>
+		</relationship>
 		<relationship name="timeline">
 			<destination>{162bee75-fcf9-4d76-8a17-5200f71b255f}</destination>
 		</relationship>
@@ -38,9 +41,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{4aee973d-cbae-4aa6-adf1-ff58bc26605c}">
-		<relationship name="modules">
-			<destination>{972838f5-ab54-4d7e-ab81-f637fce496b5}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{1ee70058-8430-44e6-9b58-509a49a6aa9f}</destination>
 		</relationship>
@@ -58,6 +58,14 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{6822fb8f-01d9-4a59-b211-9d0942d23970}" />
 	<object class="MarkerTrack" id="{dc542b85-9430-4994-9082-1081465882f3}" />
+	<object class="GroupTrack" id="{8d1c5db3-92f3-43bf-8396-19c9cca750a6}">
+		<relationship name="modules">
+			<destination>{972838f5-ab54-4d7e-ab81-f637fce496b5}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{cab63bd6-cdfe-4878-b55a-9f4bfa4eddb3}</destination>
+		</relationship>
+	</object>
 	<object class="Timeline" id="{162bee75-fcf9-4d76-8a17-5200f71b255f}">
 		<relationship name="modules">
 			<destination>{972838f5-ab54-4d7e-ab81-f637fce496b5}</destination>
@@ -74,6 +82,12 @@
 			<destination>{9cf0d898-4354-465e-956c-4c8aad52b800}</destination>
 		</relationship>
 	</object>
+	<object class="MixerBusEffectChain" id="{3ce0db94-267f-4898-8a56-abafdab257b8}">
+		<relationship name="effects">
+			<destination>{82cf7220-37c8-4270-a7a9-221dc1fd7522}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d5709b3f-09b6-4911-86bc-f7c00b5b7cf1}" />
 	<object class="SingleSound" id="{972838f5-ab54-4d7e-ab81-f637fce496b5}">
 		<property name="length">
 			<value>77</value>
@@ -82,12 +96,20 @@
 			<destination>{4dd77ac2-cf3d-4679-8166-1c4e63c66b0a}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusEffectChain" id="{3ce0db94-267f-4898-8a56-abafdab257b8}">
-		<relationship name="effects">
-			<destination>{82cf7220-37c8-4270-a7a9-221dc1fd7522}</destination>
+	<object class="EventMixerGroup" id="{cab63bd6-cdfe-4878-b55a-9f4bfa4eddb3}">
+		<property name="name">
+			<value>Audio 1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{bf9a9787-64a5-4435-a358-0c2c5a5fc126}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{76ed701d-f567-4e5a-99e3-8e57bef3de21}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1ee70058-8430-44e6-9b58-509a49a6aa9f}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{d5709b3f-09b6-4911-86bc-f7c00b5b7cf1}" />
 	<object class="MixerBusEffectChain" id="{6e790bc8-ad88-4461-b8f2-24bef3117e3e}">
 		<relationship name="effects">
 			<destination>{ac1e4ea2-9ad0-4c90-88cb-50714d8312af}</destination>
@@ -95,5 +117,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{9573775a-b63f-42ad-8b6b-036bd8ae0762}" />
 	<object class="MixerBusFader" id="{82cf7220-37c8-4270-a7a9-221dc1fd7522}" />
+	<object class="MixerBusEffectChain" id="{bf9a9787-64a5-4435-a358-0c2c5a5fc126}">
+		<relationship name="effects">
+			<destination>{644770f6-6ad2-4178-9279-90efa839f3dd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{76ed701d-f567-4e5a-99e3-8e57bef3de21}" />
 	<object class="MixerBusFader" id="{ac1e4ea2-9ad0-4c90-88cb-50714d8312af}" />
+	<object class="MixerBusFader" id="{644770f6-6ad2-4178-9279-90efa839f3dd}" />
 </objects>
