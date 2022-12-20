@@ -292,8 +292,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../WunderlandSound/WunderlandSound.fspro
-  sourceBankPath: ../WunderlandSound/Build
+  sourceProjectPath: Assets/Fmod/VR_Experience/VR_Experience.fspro
+  sourceBankPath: Assets/Fmod/VR_Experience/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

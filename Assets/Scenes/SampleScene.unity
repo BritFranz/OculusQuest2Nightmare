@@ -7740,11 +7740,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 219737849
-      Data2: 1150933960
-      Data3: 2076815489
-      Data4: -1605079126
-    Path: event:/ambient_background
+      Data1: 482960582
+      Data2: 1078262369
+      Data3: 244215192
+      Data4: 1390361477
+    Path: event:/Ambient Sound
   Event: 
   PlayEvent: 1
   StopEvent: 2
