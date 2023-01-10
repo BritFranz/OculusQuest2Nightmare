@@ -5,7 +5,7 @@
 			<value>Toys</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ed69cd27-9020-481c-82c4-6428090fc33a}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2cb1795a-f0fa-4c24-8fe2-35dc635ff4a3}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{0e855064-4c62-448a-9842-403744fa4a2c}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{93478001-b75d-4767-9cad-2ec575e84ca3}</destination>
@@ -69,6 +72,11 @@
 	<object class="Timeline" id="{2cb1795a-f0fa-4c24-8fe2-35dc635ff4a3}">
 		<relationship name="modules">
 			<destination>{fc216f08-b3c7-45bc-9dea-f0d380cbc67a}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{0e855064-4c62-448a-9842-403744fa4a2c}">
+		<relationship name="preset">
+			<destination>{1516cdf3-fae9-440e-96a6-92a7938efe93}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1aabd017-afce-4ec5-85e6-2b65db13f79a}">
@@ -114,9 +122,14 @@
 		<relationship name="effects">
 			<destination>{8fd61624-a1fe-4a8b-ad12-7d412e890a83}</destination>
 			<destination>{d4ffae19-a416-4fd8-a604-73dcdfe4efdf}</destination>
+			<destination>{020acef0-fd36-4a57-8a99-38791f043211}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{92978598-6a0a-4fcf-aaaf-9f351ac20071}" />
+	<object class="MixerBusPanner" id="{92978598-6a0a-4fcf-aaaf-9f351ac20071}">
+		<property name="surroundPanExtent">
+			<value>80</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6bee5648-9389-4e36-af3f-31b3f4be497a}" />
 	<object class="MixerBusEffectChain" id="{03eb5378-5e5f-4c61-a983-8ca2010c0b18}">
 		<relationship name="effects">
@@ -130,5 +143,6 @@
 			<value>5</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{020acef0-fd36-4a57-8a99-38791f043211}" />
 	<object class="MixerBusFader" id="{1cd2d105-f238-4d00-9204-ad14f5a0de8a}" />
 </objects>

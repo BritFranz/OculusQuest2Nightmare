@@ -6144,15 +6144,15 @@ MonoBehaviour:
       Data4: 1649378798
     Path: event:/Livingroom/Lamp
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 8.17
 --- !u!1 &599274861
 GameObject:
   m_ObjectHideFlags: 0
@@ -6668,15 +6668,15 @@ MonoBehaviour:
       Data4: -165793261
     Path: event:/Playground/Carousel
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 8.42
 --- !u!1001 &767898225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8118,15 +8118,15 @@ MonoBehaviour:
       Data4: -361357952
     Path: event:/Bathroom/WaterDrops
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 3.76
 --- !u!1 &1607137361
 GameObject:
   m_ObjectHideFlags: 0
@@ -8366,15 +8366,15 @@ MonoBehaviour:
       Data4: -221159812
     Path: event:/Livingroom/TV
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 5.29
 --- !u!1001 &1745277708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9239,7 +9239,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 0
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
