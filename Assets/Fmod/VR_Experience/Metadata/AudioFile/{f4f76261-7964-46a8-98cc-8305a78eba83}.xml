@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f4f76261-7964-46a8-98cc-8305a78eba83}">
+		<property name="assetPath">
+			<value>clown_box_trigger_laugh.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1d557454-ed3d-4e6c-abf8-19801e347c95}</destination>
+		</relationship>
+	</object>
+</objects>
