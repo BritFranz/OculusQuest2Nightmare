@@ -8420,6 +8420,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e41a633fb6e6604e9a6b863bd31bd0f, type: 3}
+--- !u!1 &1216681317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3133292727745147947, guid: 5e41a633fb6e6604e9a6b863bd31bd0f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1216681316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1216681318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216681317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -754619748
+      Data2: 1254818979
+      Data3: -1493562955
+      Data4: -2982381
+    Path: event:/Bedroom/Train
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0.3
+  OverrideMaxDistance: 4.81
 --- !u!1 &1228420291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 043c8177bf391de49b126b1f6f69864d,
