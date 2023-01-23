@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -394,8 +394,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Models/JackInTheBox
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\sjoer\OneDrive\Documenten\Sjoerd\CMGT\Y4\IMT&S\ACuTe
-    Project\OculusQuest2Nightmare
+  m_LastProjectPath: D:\School\Unity Projects\OculusQuest2Nightmare
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -457,7 +456,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d8750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -805,7 +804,7 @@ MonoBehaviour:
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
